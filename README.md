@@ -29,12 +29,12 @@ In spite of this, the goal of **AttackVector Linux** is to integrate them compli
 * apt/iceweasel/wget all run through tor (using polipo)
 * Iceweasel includes cookie monster, [HTTPS Everywhere](https://www.eff.org/https-everywhere), TORbutton, and other great extensions
 * Incredible password recovery tools: [hashkill](http://www.gat3way.eu/hashkill) OCLHashcat, many more!
-* Great Ruby tools like [Ronin](https://github.com/ronin-ruby/) ...and [Bro](https://www.bro.org)[nin](http://rwnin.blogspot.com)?
+* Great Ruby tools like [Ronin](https://github.com/ronin-ruby/) ...and [Bro](https://www.bro.org)[nin](http://rwnin.blogspot.com)? Maybe [Artillery](https://github.com/trustedsec/artillery/archive/master.zip)?
 * ![Pwnin](http://turing.slu.edu/~hastint/images/ronin2a.jpg)
 * Every penetration testing security tool from [Kali](http://kali.org). (Yes, [really](https://gist.github.com/ksoona/5691841).)
 * Additional tools for pen-testing, password cracking, and more!
-* Dedicated install with FDE and [wordlists](http://turing.slu.edu/~hastint/avl/3804453f6297/) [galore](https://github.com/thomhastings/bt5-scripts#get-wordlistssh).
-* Other tools like [PwnSTAR](https://github.com/SilverFoxx/PwnSTAR), FakeAP, sdmem, [mimikatz-en](https://github.com/thomhastings/mimikatz-en), [cortana](https://github.com/rsmudge/cortana-scripts)
+* Dedicated install with FDE and [wordlists](http://bit.do/openwall) [galore](https://github.com/thomhastings/bt5-scripts#get-wordlistssh).
+* Other tools like [PwnSTAR](https://github.com/SilverFoxx/PwnSTAR), [FakeAP](http://www.blackalchemy.to/project/fakeap/), sdmem, [mimikatz-en](https://github.com/thomhastings/mimikatz-en), [cortana](https://github.com/rsmudge/cortana-scripts), and [xerxes.c](http://lmgtfy.com/?q=xerxes.c)
 
 Download
 ========
@@ -71,12 +71,11 @@ I _love_ the Buuf icon theme:
 [buuf](http://buuficontheme.free.fr)
 Also obviously we could use MATE, XFCE, or LXDE, etc.
   
-**Q: One of your design goals is a Windows XP theme? (camouflage)**  
-_Kaneda: This is one that's up for debate, but given @thomhastings' insistence that we include it I will get around to it at some point in the near future._
-_Thom_: Here's the link from Tails' design: [Windows XP Camouflage](https://tails.boum.org/doc/first_steps/startup_options/windows_camouflage/index.en.html), also: [phillips321 did it on BT5](http://www.phillips321.co.uk/2012/08/28/making-backtrack5-look-like-xp/). I think it's totally useful to avoid suspicion from shoulder-surfers and nosy nancies.
+**Q: One of your design goals is a Windows XP theme? (camouflage)**  @kaneda: This is one that's up for debate, but given @thomhastings' insistence that we include it I will get around to it at some point in the near future._
+_Thom_: Here's the link from Tails' design: [Windows XP Camouflage](https://tails.boum.org/doc/first_steps/startup_options/windows_camouflage/index.en.html), also: [phillips321 did it on BT5](http://www.phillips321.co.uk/2012/08/28/making-backtrack5-look-like-xp/). It's useful to avoid suspicion from shoulder-surfers and nosy nancies. [TAILS needs help with this](https://tails.boum.org/news/windows_camouflage_jessie/index.en.html).
   
-**Q: Aren't kiddies going to use this tool to... Chaos?!**  
-_A: Probably. I'm not a lawyer._ Here is an official-ish blurb: Customarily, I ([@kensoona](http://twitter.com/kensoona)) am not responsible for any malicious use of this tool, and I hope that releasing it and its source code engenders better information security for the community at large.
+**Q: Creating an anonymous attack platform, is it like giving a machine gun to a monkey?**  
+_A: Possibly._ Here is an official-ish blurb: Customarily, I ([@ksoona]) am not responsible for any malicious use of this tool, and I hope that releasing it and its source code engenders better information security for the community at large.
 
 
 Build Instructions
